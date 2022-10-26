@@ -209,7 +209,7 @@ def getRandomPipe():
 def gameOver():
     
     SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
-    pygame.display.set_caption('Flappy Bird With Sameer')
+    pygame.display.set_caption('Flying Kite')
     GAME_SPRITES['OVER'] = pygame.image.load('resources/SPRITES/gameover.png').convert_alpha()
     GAME_SPRITES['RETRY'] = pygame.image.load('resources/SPRITES/retry.png').convert_alpha()
     GAME_SPRITES['HOME'] = pygame.image.load('resources/SPRITES/Home.png').convert_alpha()
@@ -254,7 +254,7 @@ if __name__ == "__main__":
 
     pygame.init() #Initializing the Modules of Pygame 
     FPSCLOCK = pygame.time.Clock() #for controlling the FPS
-    pygame.display.set_caption('Flappy Bird With Sameer') #Setting the Caption of The Game
+    pygame.display.set_caption('Flying Kite') #Setting the Caption of The Game
 
     #### LOADING THE SPRITES ####
 
